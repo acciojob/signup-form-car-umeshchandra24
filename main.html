@@ -7,6 +7,65 @@
 </head>
 
 <body>
+	<div class="form">
+		<h1>Signup form</h1>
+		<form action="#" method="post">
+			<div class="form-data" >
+				<label for="name">Name</label>
+				<div class="name">
+					<input type="text" placeholder="enter your name" id="name" name="name of the user" required>
+				</div>
+			</div>
+			<div class="form-data">
+				<label for="email">Email</label>
+				<div class="mail">
+					<input type="email" id="email" name="email" placeholder="Enter your email" required>
+				</div>
+			</div>
+			<div class="form-data">
+				<label for="gender">Gender</label>
+				<div>
+					<input type="radio" name="gender" required>
+					<label for="male">Male</label>
+					<input type="radio" name="gender" required >
+					<label for="female">Female</label>
+				</div>
+			</div>
+			<div class="form-data">
+				<label for="carbrands">Car Brands</label>
+				<div class="options">
+					<select name="carbrands" id="cars">
+						<div>
+							<option value="BMW">BMW</option>
+							<OPtion value="Audi">Audi</OPtion>
+							<option value="Mercedez">Marcedez</option>
+						</div>
+					</select>
+				</div>
+			</div>
+			<div class="form-data">
+				<label for="carage">Car age</label>
+				<div class="Carage">
+					<input type="number" required id="carage">
+				</div>
+			</div>
+			<div class="form-data">
+				<label for="dop">Date of purchase</label>
+				<div>
+					<input type="date" id="dop" required >
+				</div>
+			</div>
+			<div class="form-data">
+				<label for="password">Password</label>
+				<div>
+					<input type="password" id="password" required >
+				</div>
+			</div>
+			<div class="form-data">
+				<input type="button" id="submit" value="Submit">
+			</div>
+	</div>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
